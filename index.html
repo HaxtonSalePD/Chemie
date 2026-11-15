@@ -1,0 +1,927 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chemie-Klausur EF</title>
+<meta name="description" content="Vorbereitung auf die 1. Chemie-Klausur in der EF: Grundlagen, Reaktionsgeschwindigkeit und chemisches Gleichgewicht.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 z" class="ah"/></marker>
+  </defs>
+</svg>
+
+<header class="bar">
+  <div class="bar-inner">
+    <a class="brand" href="#start">Chemie EF</a>
+    <nav aria-label="Seiten">
+      <a href="#start">Start</a>
+      <a href="#grundlagen">A Grundlagen</a>
+      <a href="#geschwindigkeit">B Geschwindigkeit</a>
+      <a href="#gleichgewicht">C Gleichgewicht</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#probeklausur">Probeklausur</a>
+      <a href="#spickzettel">Spickzettel</a>
+      <a href="#begriffe">Begriffe</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- =================================================================== START -->
+<section class="page" id="start">
+  <div class="page-head">
+    <p class="eyebrow">Chemie EF · 1. Klausur · Montag, 16. November</p>
+    <h1>Fit für die 1. Klausur</h1>
+    <p class="lede">Grundlagen, Reaktionsgeschwindigkeit und chemisches Gleichgewicht. Alles ist nach deiner Themenübersicht geordnet, von A1 bis C3.</p>
+    <ul class="meta">
+      <li>Erlaubt: Periodensystem</li>
+      <li>Erlaubt: Taschenrechner</li>
+      <li>Fortschritt wird in diesem Browser gespeichert</li>
+    </ul>
+  </div>
+
+  <div class="block" id="selbstdiagnose">
+    <h2>Selbstdiagnose</h2>
+    <p class="sec-lede">Wie auf deinem Blatt: Kreuze bei jedem Punkt an, wie sicher du bist. Darunter erscheint deine Lernreihenfolge. Aktualisiere das am Sonntagabend noch einmal.</p>
+    <div class="sd" id="sd">
+      <div class="sd-row group"><span class="sd-code">A</span><span>Wichtige Grundlagen</span></div>
+      <div class="sd-row" data-code="A1"><a class="sd-code" href="#a1" title="Zum Abschnitt A1">A1</a><span class="sd-text">Chemische Reaktion beurteilen, exotherm und endotherm erklären, Reaktionsgleichungen aufstellen, Katalysator erklären</span><div class="seg" role="radiogroup" aria-label="A1"></div></div>
+      <div class="sd-row" data-code="A2"><a class="sd-code" href="#a2" title="Zum Abschnitt A2">A2</a><span class="sd-text">Mit chemischen Größen rechnen und Rechenwege mit Einheiten darstellen</span><div class="seg" role="radiogroup" aria-label="A2"></div></div>
+      <div class="sd-row group"><span class="sd-code">B</span><span>Reaktionsgeschwindigkeit</span></div>
+      <div class="sd-row" data-code="B1"><a class="sd-code" href="#b1" title="Zum Abschnitt B1">B1</a><span class="sd-text">Verlauf mit der Stoßtheorie erklären, Momentangeschwindigkeit rechnerisch und grafisch annähern</span><div class="seg" role="radiogroup" aria-label="B1"></div></div>
+      <div class="sd-row" data-code="B2"><a class="sd-code" href="#b2" title="Zum Abschnitt B2">B2</a><span class="sd-text">Gleichungen für die Reaktionsgeschwindigkeit (Stoffmenge, Konzentration) aufstellen und damit rechnen</span><div class="seg" role="radiogroup" aria-label="B2"></div></div>
+      <div class="sd-row" data-code="B3"><a class="sd-code" href="#b3" title="Zum Abschnitt B3">B3</a><span class="sd-text">Einflussfaktoren beschreiben und mit der Stoßtheorie (wirksame Stöße, Stoßwahrscheinlichkeit) erläutern</span><div class="seg" role="radiogroup" aria-label="B3"></div></div>
+      <div class="sd-row group"><span class="sd-code">C</span><span>Chemisches Gleichgewicht</span></div>
+      <div class="sd-row" data-code="C1"><a class="sd-code" href="#c1" title="Zum Abschnitt C1">C1</a><span class="sd-text">Chemisches Gleichgewicht und Voraussetzungen erklären, Konzentrationsverläufe kennen, dynamisches Gleichgewicht erläutern</span><div class="seg" role="radiogroup" aria-label="C1"></div></div>
+      <div class="sd-row" data-code="C2"><a class="sd-code" href="#c2" title="Zum Abschnitt C2">C2</a><span class="sd-text">Massenwirkungsgesetz formulieren, K<sub>c</sub> mit Einheit berechnen, Lage ableiten, Gleichgewichtskonzentrationen berechnen</span><div class="seg" role="radiogroup" aria-label="C2"></div></div>
+      <div class="sd-row" data-code="C3"><a class="sd-code" href="#c3" title="Zum Abschnitt C3">C3</a><span class="sd-text">Einfluss von Konzentration, Druck und Temperatur beurteilen, Prinzip von Le Chatelier</span><div class="seg" role="radiogroup" aria-label="C3"></div></div>
+    </div>
+    <h3>Deine Baustellen</h3>
+    <ul class="todo-list" id="baustellen"></ul>
+  </div>
+
+  <div class="block" id="lernplan">
+    <h2>Lernplan bis Montag</h2>
+    <p class="sec-lede">A ist die Basis für alles andere, deshalb kommt es heute dran. Innerhalb eines Tages fängst du mit deinen Baustellen an. <span id="plan-count"></span></p>
+    <div class="days">
+      <div class="day today">
+        <p class="day-date">Sa 14.11. · heute</p>
+        <h3>Grundlagen</h3>
+        <p class="day-time">ca. 2 Stunden</p>
+        <ul class="todo">
+          <li><input type="checkbox" id="s1" data-save><label for="s1">Selbstdiagnose oben ausfüllen</label></li>
+          <li><input type="checkbox" id="s2" data-save><label for="s2">A1: Energiediagramme, Katalysator, Reaktionsgleichungen</label></li>
+          <li><input type="checkbox" id="s3" data-save><label for="s3">A2: Rechnen, dazu die drei Mini-Übungen</label></li>
+          <li><input type="checkbox" id="s4" data-save><label for="s4">Quiz A1 und A2</label></li>
+        </ul>
+      </div>
+      <div class="day">
+        <p class="day-date">So 15.11.</p>
+        <h3>B und C</h3>
+        <p class="day-time">ca. 5 Stunden mit Pausen</p>
+        <ul class="todo">
+          <li><input type="checkbox" id="s5" data-save><label for="s5">Vormittag: B1 bis B3, am Diagramm die Tangente ausprobieren</label></li>
+          <li><input type="checkbox" id="s6" data-save><label for="s6">Quiz B1 bis B3</label></li>
+          <li><input type="checkbox" id="s7" data-save><label for="s7">Nachmittag: C1 bis C3, alle Rechenbeispiele selbst nachrechnen</label></li>
+          <li><input type="checkbox" id="s8" data-save><label for="s8">Quiz C1 bis C3, dann „Falsche nochmal versuchen“</label></li>
+          <li><input type="checkbox" id="s9" data-save><label for="s9">Probeklausur in 60 Minuten ohne Hilfe, danach korrigieren</label></li>
+          <li><input type="checkbox" id="s10" data-save><label for="s10">Abends: Selbstdiagnose aktualisieren, nur noch Baustellen</label></li>
+        </ul>
+      </div>
+      <div class="day">
+        <p class="day-date">Mo 16.11. · Klausur</p>
+        <h3>Kurz auffrischen</h3>
+        <p class="day-time">ca. 15 Minuten</p>
+        <ul class="todo">
+          <li><input type="checkbox" id="s11" data-save><label for="s11">Spickzettel einmal durchlesen</label></li>
+          <li><input type="checkbox" id="s12" data-save><label for="s12">Periodensystem, Taschenrechner, Lineal für Tangenten und Stifte einpacken</label></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2>Zwei Hinweise von deinem Blatt</h2>
+    <div class="two">
+      <div class="merke">
+        <p class="box-label">Lösungswege</p>
+        <p>„Achten Sie auf die angemessene und korrekte Darstellung Ihrer Lösungswege.“ Bei jeder Rechnung also: gegeben, gesucht, Formel, Einsetzen <em>mit Einheiten</em>, Ergebnis mit Antwortsatz. Ein Beispiel steht bei <a href="#a2">A2</a>.</p>
+      </div>
+      <div class="merke">
+        <p class="box-label">Operatoren</p>
+        <p>Auf der Rückseite deines Blatts steht die Operatorenübersicht. Eine Kurzfassung findest du auf dem <a href="#operatoren">Spickzettel</a>. Lies in jeder Aufgabe zuerst das Verb.</p>
+      </div>
+    </div>
+  </div>
+
+  <nav class="next" aria-label="Weiter"><span></span><a href="#grundlagen">Weiter: A Grundlagen →</a></nav>
+</section>
+
+<!-- =================================================================== A -->
+<section class="page" id="grundlagen" hidden>
+  <div class="page-head">
+    <p class="eyebrow">Teil A</p>
+    <h1>Wichtige Grundlagen</h1>
+    <p class="lede">Reaktionen, Energie und Rechnen. Das brauchst du in jeder Aufgabe zu B und C.</p>
+  </div>
+
+  <!-- A1 -->
+  <article class="topic" id="a1">
+    <header class="topic-head"><span class="code">A1</span><h2>Chemische Reaktion, Energie, Katalysator</h2></header>
+    <p class="cando">„Ich kann beurteilen, wann es sich um eine chemische Reaktion handelt, exotherme/endotherme Reaktionsverläufe erklären sowie unterscheiden und Reaktionsgleichungen zu Reaktionen aufstellen. Ich kann erklären, was man unter einem Katalysator versteht.“</p>
+    <p class="ab"><b>Material aus dem Unterricht:</b> AB „Die chemische Reaktion – Wiederholung“</p>
+
+    <h3>Reaktion oder nicht?</h3>
+    <div class="prose">
+      <p>Eine <strong>chemische Reaktion</strong> erkennst du an zwei Dingen:</p>
+    </div>
+    <ul class="list">
+      <li><strong>Stoffumwandlung:</strong> Es entstehen neue Stoffe mit neuen Eigenschaften (Farbe, Geruch, Aggregatzustand, Löslichkeit …).</li>
+      <li><strong>Energieumwandlung:</strong> Energie wird abgegeben oder aufgenommen, z. B. als Wärme oder Licht.</li>
+      <li><strong>Auf Teilchenebene</strong> werden Bindungen gelöst und neu geknüpft, die Atome werden umgruppiert. Die Atome selbst bleiben erhalten, deshalb bleibt die Masse gleich.</li>
+    </ul>
+    <div class="prose">
+      <p><strong>Keine Reaktion</strong> sind Aggregatzustandsänderungen (Eis schmilzt, Wasser siedet), Mischen und das Lösen von Zucker in Wasser. Die Stoffe bleiben dieselben.</p>
+    </div>
+
+    <h3>Exotherm und endotherm</h3>
+    <div class="two">
+      <figure class="panel">
+        <svg viewBox="0 0 300 205" role="img" aria-labelledby="exo-t">
+          <title id="exo-t">Energiediagramm einer exothermen Reaktion mit und ohne Katalysator</title>
+          <line class="ax" x1="30" y1="185" x2="30" y2="12" marker-end="url(#ah)"/>
+          <line class="ax" x1="30" y1="185" x2="292" y2="185" marker-end="url(#ah)"/>
+          <text class="axl" x="22" y="100" transform="rotate(-90 22 100)" text-anchor="middle">Energie</text>
+          <text class="axl" x="290" y="200" text-anchor="end">Reaktionsverlauf</text>
+          <line class="ln-dash" x1="70" y1="35" x2="160" y2="35"/>
+          <line class="ln-dash" x1="95" y1="110" x2="275" y2="110"/>
+          <path class="ln-cat" d="M95,110 C130,110 135,75 160,75 C185,75 190,150 225,150"/>
+          <path class="ln-ink" d="M45,110 L95,110 C130,110 135,35 160,35 C185,35 190,150 225,150 L285,150"/>
+          <line class="arrow" x1="75" y1="110" x2="75" y2="38" marker-end="url(#ah)"/>
+          <text class="lab" x="80" y="78">E<tspan font-size="9" dy="3">A</tspan></text>
+          <line class="arrow" x1="265" y1="110" x2="265" y2="147" marker-end="url(#ah)"/>
+          <text class="lab" x="258" y="134" text-anchor="end">ΔH &lt; 0</text>
+          <text class="lab" x="40" y="127">Edukte</text>
+          <text class="lab" x="228" y="168">Produkte</text>
+        </svg>
+        <figcaption><b>Exotherm:</b> Energie wird an die Umgebung abgegeben, die Produkte sind energieärmer. Grün gestrichelt: derselbe Weg mit Katalysator.</figcaption>
+      </figure>
+      <figure class="panel">
+        <svg viewBox="0 0 300 205" role="img" aria-labelledby="endo-t">
+          <title id="endo-t">Energiediagramm einer endothermen Reaktion</title>
+          <line class="ax" x1="30" y1="185" x2="30" y2="12" marker-end="url(#ah)"/>
+          <line class="ax" x1="30" y1="185" x2="292" y2="185" marker-end="url(#ah)"/>
+          <text class="axl" x="22" y="100" transform="rotate(-90 22 100)" text-anchor="middle">Energie</text>
+          <text class="axl" x="290" y="200" text-anchor="end">Reaktionsverlauf</text>
+          <line class="ln-dash" x1="70" y1="30" x2="160" y2="30"/>
+          <line class="ln-dash" x1="95" y1="140" x2="275" y2="140"/>
+          <path class="ln-ink" d="M45,140 L95,140 C130,140 135,30 160,30 C185,30 190,85 225,85 L285,85"/>
+          <line class="arrow" x1="75" y1="140" x2="75" y2="33" marker-end="url(#ah)"/>
+          <text class="lab" x="80" y="88">E<tspan font-size="9" dy="3">A</tspan></text>
+          <line class="arrow" x1="265" y1="140" x2="265" y2="88" marker-end="url(#ah)"/>
+          <text class="lab" x="258" y="118" text-anchor="end">ΔH &gt; 0</text>
+          <text class="lab" x="40" y="157">Edukte</text>
+          <text class="lab" x="228" y="77">Produkte</text>
+        </svg>
+        <figcaption><b>Endotherm:</b> Energie wird aus der Umgebung aufgenommen, die Produkte sind energiereicher.</figcaption>
+      </figure>
+    </div>
+    <ul class="list">
+      <li><strong>Aktivierungsenergie E<sub>A</sub>:</strong> Energie, die man zum Starten braucht. Auch exotherme Reaktionen brauchen sie, z. B. das Streichholz beim Anzünden einer Kerze.</li>
+      <li><strong>Reaktionsenthalpie ΔH</strong> = Energie der Produkte − Energie der Edukte. Exotherm: ΔH &lt; 0. Endotherm: ΔH &gt; 0. In manchen Büchern heißt sie Reaktionsenergie ΔE.</li>
+    </ul>
+
+    <h3>Katalysator</h3>
+    <div class="merke">
+      <p class="box-label">Merke</p>
+      <p>Ein Katalysator ermöglicht einen anderen Reaktionsweg mit <strong>kleinerer Aktivierungsenergie</strong>. Dadurch läuft die Reaktion schneller. Er liegt nach der Reaktion <strong>unverändert</strong> vor. ΔH bleibt gleich, ebenso die Lage eines Gleichgewichts.</p>
+    </div>
+    <div class="prose">
+      <p>Beispiele: Braunstein (MnO<sub>2</sub>) bei der Zersetzung von Wasserstoffperoxid, Platin im Autokatalysator, Eisen bei der Ammoniaksynthese, Enzyme in Lebewesen.</p>
+    </div>
+
+    <h3>Reaktionsgleichungen aufstellen</h3>
+    <ol class="list">
+      <li>Wortgleichung aufschreiben.</li>
+      <li>Formeln einsetzen. Zweiatomig sind H<sub>2</sub>, N<sub>2</sub>, O<sub>2</sub>, F<sub>2</sub>, Cl<sub>2</sub>, Br<sub>2</sub>, I<sub>2</sub>.</li>
+      <li>Mit Koeffizienten (großen Zahlen davor) ausgleichen. Die kleinen Indexzahlen nie ändern.</li>
+      <li>Aggregatzustände ergänzen: (s) fest, (l) flüssig, (g) gasförmig, (aq) gelöst in Wasser. Bei Gleichgewichten ⇌ schreiben.</li>
+    </ol>
+    <div class="eq">
+      <span class="lbl">Magnesium + Salzsäure</span> Mg(s) + 2 HCl(aq) → MgCl<sub>2</sub>(aq) + H<sub>2</sub>(g)<br>
+      <span class="lbl">Marmor + Salzsäure</span> CaCO<sub>3</sub>(s) + 2 HCl(aq) → CaCl<sub>2</sub>(aq) + H<sub>2</sub>O(l) + CO<sub>2</sub>(g)<br>
+      <span class="lbl">Wasserstoffperoxid</span> 2 H<sub>2</sub>O<sub>2</sub>(aq) → 2 H<sub>2</sub>O(l) + O<sub>2</sub>(g)<br>
+      <span class="lbl">Thiosulfat + Salzsäure</span> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>(aq) + 2 HCl(aq) → 2 NaCl(aq) + S(s) + SO<sub>2</sub>(aq) + H<sub>2</sub>O(l)<br>
+      <span class="lbl">Ammoniaksynthese</span> N<sub>2</sub>(g) + 3 H<sub>2</sub>(g) ⇌ 2 NH<sub>3</sub>(g)
+    </div>
+    <div class="pitfall">
+      <p class="box-label">Typischer Fehler</p>
+      <p>Den Index ändern, damit es „aufgeht“: <span class="f">Mg + O<sub>2</sub> → MgO<sub>2</sub></span> ist falsch, denn den Stoff MgO<sub>2</sub> gibt es hier nicht. Richtig ist <span class="f">2 Mg + O<sub>2</sub> → 2 MgO</span>.</p>
+    </div>
+    <a class="quizlink" href="#quiz" data-quiz="A1">Quizfragen zu A1 →</a>
+  </article>
+
+  <!-- A2 -->
+  <article class="topic" id="a2">
+    <header class="topic-head"><span class="code">A2</span><h2>Chemisches Rechnen</h2></header>
+    <p class="cando">„Ich kann mit chemischen Größen rechnen und meine Rechenwege (mit Einheiten!) korrekt darstellen.“</p>
+    <p class="ab"><b>Material aus dem Unterricht:</b> AB „Chemische Größen, Einheiten und Formeln – Wiederholung“ · AB „Chemisches Rechnen – Wiederholung und Übung“</p>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Größe</th><th>Zeichen</th><th>Einheit</th><th>Formel / Hinweis</th></tr></thead>
+        <tbody>
+          <tr><td>Masse</td><td>m</td><td>g</td><td>–</td></tr>
+          <tr><td>Stoffmenge</td><td>n</td><td>mol</td><td><span class="f">n = m / M</span></td></tr>
+          <tr><td>Molare Masse</td><td>M</td><td>g/mol</td><td>Atommassen aus dem PSE addieren</td></tr>
+          <tr><td>Volumen</td><td>V</td><td>L</td><td>1 L = 1000 mL</td></tr>
+          <tr><td>Stoffmengen&shy;konzentration</td><td>c</td><td>mol/L</td><td><span class="f">c = n / V</span></td></tr>
+          <tr><td>Molares Volumen (Gase)</td><td>V<sub>m</sub></td><td>L/mol</td><td><span class="f">n = V / V<sub>m</sub></span> · 22,4 L/mol bei 0 °C, 24 L/mol bei 20 °C</td></tr>
+          <tr><td>Teilchenzahl</td><td>N</td><td>–</td><td><span class="f">N = n · N<sub>A</sub></span>, N<sub>A</sub> = 6,022 · 10<sup>23</sup> mol<sup>−1</sup></td></tr>
+          <tr><td>Dichte</td><td>ρ</td><td>g/mL</td><td><span class="f">ρ = m / V</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="merke">
+      <p class="box-label">Stoffmengenverhältnis</p>
+      <p>Die Koeffizienten der Reaktionsgleichung geben das Verhältnis der <strong>Stoffmengen</strong> an, nicht der Massen. Bei <span class="f">Mg + 2 HCl → MgCl<sub>2</sub> + H<sub>2</sub></span> gilt n(Mg) : n(HCl) : n(H<sub>2</sub>) = 1 : 2 : 1.</p>
+    </div>
+    <h3>So sieht ein vollständiger Rechenweg aus</h3>
+    <div class="prose"><p>Wie viel Wasserstoff (bei 20 °C) entsteht, wenn 0,12 g Magnesium mit genug Salzsäure reagieren?</p></div>
+    <div class="eq">
+      <span class="lbl">gegeben</span> m(Mg) = 0,12 g; M(Mg) = 24,3 g/mol; V<sub>m</sub> = 24 L/mol<br>
+      <span class="lbl">gesucht</span> V(H<sub>2</sub>)<br>
+      <span class="lbl">Stoffmenge</span> n(Mg) = m / M = 0,12 g ÷ 24,3 g/mol = 4,94 · 10<sup>−3</sup> mol<br>
+      <span class="lbl">Verhältnis</span> n(H<sub>2</sub>) = n(Mg) = 4,94 · 10<sup>−3</sup> mol <span class="c">(Mg : H<sub>2</sub> = 1 : 1)</span><br>
+      <span class="lbl">Volumen</span> V(H<sub>2</sub>) = n · V<sub>m</sub> = 4,94 · 10<sup>−3</sup> mol · 24 L/mol = 0,119 L<br>
+      <span class="lbl">Antwort</span> Es entstehen etwa 119 mL Wasserstoff.
+    </div>
+    <div class="pitfall">
+      <p class="box-label">Typische Fehler</p>
+      <p>Milliliter nicht in Liter umrechnen (c = n / V braucht Liter). Einheiten beim Einsetzen weglassen. Das Stoffmengenverhältnis aus der Gleichung vergessen.</p>
+    </div>
+    <details>
+      <summary>Drei Mini-Übungen (mit Lösungen)</summary>
+      <div class="det">
+        <ol class="list">
+          <li>Welche Masse haben 0,25 mol Kohlenstoffdioxid?</li>
+          <li>2,0 g Natriumhydroxid werden zu 250 mL Lösung gelöst. Berechne c(NaOH).</li>
+          <li><span class="f">2 H<sub>2</sub>O<sub>2</sub> → 2 H<sub>2</sub>O + O<sub>2</sub></span>: 0,34 g Wasserstoffperoxid zersetzen sich. Wie viel mL Sauerstoff entstehen bei 20 °C?</li>
+        </ol>
+        <details>
+          <summary>Lösungen anzeigen</summary>
+          <div class="det">
+            <div class="eq">
+              <span class="lbl">1</span> M(CO<sub>2</sub>) = 12 + 2 · 16 = 44 g/mol; m = n · M = 0,25 mol · 44 g/mol = <strong>11 g</strong><br>
+              <span class="lbl">2</span> M(NaOH) = 40 g/mol; n = 2,0 g ÷ 40 g/mol = 0,050 mol; c = 0,050 mol ÷ 0,250 L = <strong>0,20 mol/L</strong><br>
+              <span class="lbl">3</span> M(H<sub>2</sub>O<sub>2</sub>) = 34 g/mol; n = 0,010 mol; n(O<sub>2</sub>) = ½ · 0,010 mol = 0,0050 mol;<br>
+              <span class="lbl"></span> V = 0,0050 mol · 24 L/mol = 0,12 L = <strong>120 mL</strong>
+            </div>
+          </div>
+        </details>
+      </div>
+    </details>
+    <a class="quizlink" href="#quiz" data-quiz="A2">Quizfragen zu A2 →</a>
+  </article>
+
+  <nav class="next" aria-label="Weiter"><a href="#start">← Start</a><a href="#geschwindigkeit">Weiter: B Reaktionsgeschwindigkeit →</a></nav>
+</section>
+
+<!-- =================================================================== B -->
+<section class="page" id="geschwindigkeit" hidden>
+  <div class="page-head">
+    <p class="eyebrow">Teil B</p>
+    <h1>Reaktionsgeschwindigkeit</h1>
+    <p class="lede">Wie schnell eine Reaktion läuft, wie man das misst und berechnet und warum sie langsamer wird.</p>
+  </div>
+
+  <!-- B1 -->
+  <article class="topic" id="b1">
+    <header class="topic-head"><span class="code">B1</span><h2>Verlauf und Momentangeschwindigkeit</h2></header>
+    <p class="cando">„Ich kann den Verlauf der Reaktionsgeschwindigkeit anhand der Stoßtheorie erläutern und erklären, wie sich eine momentane Geschwindigkeit anhand von Messwerten (rechnerisch/grafisch) nähern lässt.“</p>
+    <p class="ab"><b>Material aus dem Unterricht:</b> AB „Reaktionsgeschwindigkeit – Eine Analogie“ · AB „Stoßtheorie zur Reaktionsgeschwindigkeit“</p>
+    <div class="prose">
+      <p><strong>Reaktionsgeschwindigkeit</strong> ist die Änderung der Konzentration (oder Stoffmenge, Masse, Gasvolumen) pro Zeit. Die <strong>Durchschnittsgeschwindigkeit</strong> zwischen zwei Messpunkten ist <span class="f">v = Δc / Δt</span>.</p>
+      <p><strong>Warum wird die Reaktion langsamer?</strong> Am Anfang ist die Konzentration der Edukte am größten. Es gibt viele Zusammenstöße pro Zeit, v ist am größten. Die Edukte werden verbraucht, also gibt es weniger Zusammenstöße pro Zeit. v nimmt ab, die Kurve wird flacher. Ist ein Edukt aufgebraucht, ist v = 0.</p>
+      <p><strong>Analogie Autofahrt:</strong> 120 km in 2 Stunden ergibt eine Durchschnittsgeschwindigkeit von 60 km/h. Der Tacho zeigt dagegen die Momentangeschwindigkeit. Bei Reaktionen ist es genauso.</p>
+    </div>
+    <div class="two">
+      <div class="merke">
+        <p class="box-label">Durchschnitt</p>
+        <p>Steigung der <strong>Sekante</strong> durch zwei Messpunkte: <span class="f">v = Δy / Δt</span>.</p>
+      </div>
+      <div class="merke">
+        <p class="box-label">Momentan</p>
+        <p>Steigung der <strong>Tangente</strong> in einem Punkt. Rechnerisch näherst du sie mit einem kleinen Intervall rund um den Zeitpunkt an.</p>
+      </div>
+    </div>
+
+    <figure class="panel" id="tangente">
+      <svg id="tan-svg" viewBox="0 0 560 300" role="img" aria-label="Wasserstoffvolumen gegen die Zeit mit Tangente und Sekante"></svg>
+      <div class="controls">
+        <label for="tan-t"><span>Zeitpunkt t</span><input type="range" id="tan-t" min="0" max="110" step="5" value="20"><output id="tan-t-out" for="tan-t">20 s</output></label>
+      </div>
+      <div class="readout" id="tan-read" aria-live="polite"></div>
+      <div class="legend"><span><i style="background:var(--accent)"></i>Tangente: Momentangeschwindigkeit</span><span><i style="background:var(--amber)"></i>Sekante von 0 bis t: Durchschnitt</span></div>
+      <figcaption><b>Beispiel-Messwerte:</b> Magnesium reagiert mit Salzsäure, gemessen wird das Volumen Wasserstoff. Schiebe den Regler und vergleiche die beiden Steigungen.</figcaption>
+    </figure>
+
+    <div class="tbl">
+      <table>
+        <thead><tr><th>t in s</th><td class="num">0</td><td class="num">10</td><td class="num">20</td><td class="num">30</td><td class="num">40</td><td class="num">60</td><td class="num">80</td><td class="num">100</td><td class="num">120</td></tr></thead>
+        <tbody><tr><th>V(H<sub>2</sub>) in mL</th><td class="num">0</td><td class="num">31</td><td class="num">53</td><td class="num">68</td><td class="num">80</td><td class="num">93</td><td class="num">100</td><td class="num">104</td><td class="num">106</td></tr></tbody>
+      </table>
+    </div>
+    <div class="eq">
+      <span class="lbl">Durchschnitt 0–20 s</span> v = (53 mL − 0 mL) ÷ 20 s = 2,65 mL/s<br>
+      <span class="lbl">Durchschnitt 20–40 s</span> v = (80 mL − 53 mL) ÷ 20 s = 1,35 mL/s<br>
+      <span class="lbl">Durchschnitt 60–120 s</span> v = (106 mL − 93 mL) ÷ 60 s = 0,22 mL/s<br>
+      <span class="lbl">Momentan bei 20 s</span> v ≈ (68 mL − 31 mL) ÷ (30 s − 10 s) = 1,85 mL/s <span class="c">(Intervall 10 s bis 30 s)</span><br>
+      <span class="lbl">in mol/s</span> 1,85 mL/s ÷ 24 000 mL/mol = 7,7 · 10<sup>−5</sup> mol/s
+    </div>
+    <h3>Tangente zeichnen</h3>
+    <ol class="list">
+      <li>Den Punkt auf der Kurve markieren.</li>
+      <li>Das Lineal so anlegen, dass es die Kurve nur in diesem Punkt berührt.</li>
+      <li>Ein großes Steigungsdreieck zeichnen und Δy und Δt mit Einheiten ablesen.</li>
+      <li><span class="f">v = Δy / Δt</span> berechnen.</li>
+    </ol>
+    <div class="pitfall">
+      <p class="box-label">Typischer Fehler</p>
+      <p>Für die Momentangeschwindigkeit einfach „y-Wert ÷ x-Wert“ des Punktes rechnen. Das ist die Durchschnittsgeschwindigkeit seit dem Start, also die orange Sekante, nicht die Tangente.</p>
+    </div>
+    <a class="quizlink" href="#quiz" data-quiz="B1">Quizfragen zu B1 →</a>
+  </article>
+
+  <!-- B2 -->
+  <article class="topic" id="b2">
+    <header class="topic-head"><span class="code">B2</span><h2>Geschwindigkeit aufstellen und berechnen</h2></header>
+    <p class="cando">„Ich kann anhand von Reaktionsgleichungen Gleichungen für die Reaktionsgeschwindigkeit (bezogen auf die Stoffmenge oder Konzentration) aufstellen und damit Reaktionsgeschwindigkeiten berechnen.“</p>
+    <p class="ab"><b>Material aus dem Unterricht:</b> AB „Reaktionsgeschwindigkeit messen“</p>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>bezogen auf</th><th>Produkt</th><th>Edukt</th><th>Einheit</th></tr></thead>
+        <tbody>
+          <tr><td>Konzentration</td><td><span class="f">v = Δc(P) / Δt</span></td><td><span class="f">v = −Δc(E) / Δt</span></td><td>mol/(L·s)</td></tr>
+          <tr><td>Stoffmenge</td><td><span class="f">v = Δn(P) / Δt</span></td><td><span class="f">v = −Δn(E) / Δt</span></td><td>mol/s</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="prose">
+      <p>Das <strong>Minus bei Edukten</strong> steht da, weil ihre Konzentration abnimmt. Δc ist negativ, v soll aber positiv sein.</p>
+      <p><strong>Koeffizienten verknüpfen die Geschwindigkeiten.</strong> Bei <span class="f">Mg + 2 HCl → MgCl<sub>2</sub> + H<sub>2</sub></span> wird HCl doppelt so schnell verbraucht, wie H<sub>2</sub> entsteht:</p>
+    </div>
+    <div class="eq">
+      −Δn(HCl) / Δt = 2 · Δn(H<sub>2</sub>) / Δt<br>
+      <span class="c">Einheitliche Reaktionsgeschwindigkeit, falls ihr sie benutzt: jede Änderung durch ihren Koeffizienten teilen.</span><br>
+      v = −Δn(Mg) / Δt = −½ · Δn(HCl) / Δt = Δn(MgCl<sub>2</sub>) / Δt = Δn(H<sub>2</sub>) / Δt
+    </div>
+    <h3>Messmethoden</h3>
+    <ul class="list">
+      <li><strong>Gasvolumen</strong> mit Kolbenprober oder Messzylinder (z. B. H<sub>2</sub> bei Magnesium + Salzsäure).</li>
+      <li><strong>Massenabnahme</strong> auf der Waage, wenn ein Gas entweicht (CO<sub>2</sub> bei Marmor + Salzsäure).</li>
+      <li><strong>Trübung</strong>: Bei Thiosulfat + Salzsäure entsteht Schwefel, ein Kreuz unter dem Becherglas verschwindet.</li>
+      <li><strong>Farbe</strong> (Fotometer), Leitfähigkeit oder pH-Wert.</li>
+    </ul>
+    <h3>Rechenbeispiel</h3>
+    <div class="prose"><p>Marmor reagiert mit 50 mL Salzsäure: <span class="f">CaCO<sub>3</sub> + 2 HCl → CaCl<sub>2</sub> + H<sub>2</sub>O + CO<sub>2</sub></span>. In den ersten 30 s nimmt die Masse um 0,44 g ab, weil CO<sub>2</sub> entweicht.</p></div>
+    <div class="eq">
+      <span class="lbl">Stoffmenge CO<sub>2</sub></span> n(CO<sub>2</sub>) = 0,44 g ÷ 44 g/mol = 0,010 mol<br>
+      <span class="lbl">v bezogen auf CO<sub>2</sub></span> v = 0,010 mol ÷ 30 s = 3,3 · 10<sup>−4</sup> mol/s<br>
+      <span class="lbl">HCl verbraucht</span> n(HCl) = 2 · 0,010 mol = 0,020 mol → Δc = 0,020 mol ÷ 0,050 L = 0,40 mol/L<br>
+      <span class="lbl">v bezogen auf HCl</span> v = 0,40 mol/L ÷ 30 s = 0,013 mol/(L·s)
+    </div>
+    <div class="pitfall">
+      <p class="box-label">Typische Fehler</p>
+      <p>Das Minuszeichen bei Edukten vergessen. Die Koeffizienten ignorieren. Bei der Konzentration das Volumen nicht in Liter umrechnen.</p>
+    </div>
+    <a class="quizlink" href="#quiz" data-quiz="B2">Quizfragen zu B2 →</a>
+  </article>
+
+  <!-- B3 -->
+  <article class="topic" id="b3">
+    <header class="topic-head"><span class="code">B3</span><h2>Einflussfaktoren und Stoßtheorie</h2></header>
+    <p class="cando">„Ich kann den Verlauf der Reaktionsgeschwindigkeit und dessen Einflussfaktoren beschreiben und mithilfe der Stoßtheorie (wirksame Stöße / Stoßwahrscheinlichkeit) erläutern.“</p>
+    <p class="ab"><b>Material aus dem Unterricht:</b> AB „Stoßtheorie zur Reaktionsgeschwindigkeit“ · AB „Beeinflussung der Reaktionsgeschwindigkeit“</p>
+    <div class="merke">
+      <p class="box-label">Stoßtheorie</p>
+      <p>Teilchen reagieren nur, wenn sie <strong>zusammenstoßen</strong>. Und der Stoß muss <strong>wirksam</strong> sein: genug Energie (mindestens E<sub>A</sub>) und die passende Ausrichtung. Nur ein kleiner Teil aller Stöße ist wirksam.</p>
+    </div>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Faktor</th><th>v</th><th>Erklärung mit der Stoßtheorie</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Konzentration ↑</strong></td><td>↑</td><td>Mehr Teilchen pro Volumen, also mehr Zusammenstöße pro Zeit (höhere Stoßwahrscheinlichkeit).</td></tr>
+          <tr><td><strong>Druck ↑</strong> (bei Gasen)</td><td>↑</td><td>Die Gasteilchen sind enger zusammen. Das wirkt wie eine höhere Konzentration.</td></tr>
+          <tr><td><strong>Zerteilungsgrad ↑</strong></td><td>↑</td><td>Pulver statt Stück: größere Oberfläche, mehr Teilchen können getroffen werden.</td></tr>
+          <tr><td><strong>Temperatur ↑</strong></td><td>↑↑</td><td>Die Teilchen sind schneller. Sie stoßen häufiger zusammen, und vor allem hat ein größerer Anteil genug Energie für einen wirksamen Stoß. RGT-Regel: 10 K wärmer ergibt etwa 2- bis 4-mal so schnell.</td></tr>
+          <tr><td><strong>Katalysator</strong></td><td>↑</td><td>Anderer Weg mit kleinerer E<sub>A</sub>, dadurch sind mehr Stöße wirksam.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <figure class="panel">
+      <svg id="mb-svg" viewBox="0 0 320 195" role="img" aria-label="Energieverteilung der Teilchen bei niedriger und hoher Temperatur"></svg>
+      <div class="legend"><span><i style="background:var(--accent)"></i>niedrige Temperatur</span><span><i style="background:var(--amber)"></i>hohe Temperatur</span></div>
+      <figcaption><b>Energieverteilung der Teilchen.</b> Die Fläche rechts von E<sub>A</sub> steht für die Teilchen, die wirksam stoßen können. Bei höherer Temperatur ist sie viel größer. E<sub>A</sub> selbst bleibt gleich.</figcaption>
+    </figure>
+    <div class="prose">
+      <p><strong>Diagramme vergleichen:</strong> Höhere Konzentration oder Temperatur macht die Kurve am Anfang steiler. Das Endvolumen bleibt gleich, wenn vom begrenzenden Edukt (z. B. Magnesium) gleich viel da ist.</p>
+    </div>
+    <div class="pitfall">
+      <p class="box-label">Typische Fehler</p>
+      <p>„Bei höherer Temperatur sinkt die Aktivierungsenergie.“ Falsch, nur ein Katalysator senkt E<sub>A</sub>. „Ein Katalysator liefert mehr Produkt.“ Falsch, er macht die Reaktion nur schneller.</p>
+    </div>
+    <a class="quizlink" href="#quiz" data-quiz="B3">Quizfragen zu B3 →</a>
+  </article>
+
+  <nav class="next" aria-label="Weiter"><a href="#grundlagen">← A Grundlagen</a><a href="#gleichgewicht">Weiter: C Gleichgewicht →</a></nav>
+</section>
+
+<!-- =================================================================== C -->
+<section class="page" id="gleichgewicht" hidden>
+  <div class="page-head">
+    <p class="eyebrow">Teil C</p>
+    <h1>Chemisches Gleichgewicht</h1>
+    <p class="lede">Umkehrbare Reaktionen, das Massenwirkungsgesetz und wie man ein Gleichgewicht verschiebt.</p>
+  </div>
+
+  <!-- C1 -->
+  <article class="topic" id="c1">
+    <header class="topic-head"><span class="code">C1</span><h2>Das dynamische Gleichgewicht</h2></header>
+    <p class="cando">„Ich kann erklären, was man unter dem chemischen Gleichgewicht versteht, was die Voraussetzungen dafür sind, kenne mögliche Verläufe der Konzentrationen von Edukt und Produkten und kann in diesem Zusammenhang den Begriff des ‚dynamischen Gleichgewichts‘ erläutern.“</p>
+    <p class="ab"><b>Material aus dem Unterricht:</b> AB „Umkehrung von Vorgängen“ · AB „Was ist das chemische Gleichgewicht?“ · AB „Was versteht man unter dem dynamischen Gleichgewicht?“</p>
+    <div class="prose">
+      <p>Viele Reaktionen sind <strong>umkehrbar</strong>: Neben der Hinreaktion läuft die Rückreaktion. Man schreibt ⇌, z. B. <span class="f">H<sub>2</sub> + I<sub>2</sub> ⇌ 2 HI</span>.</p>
+    </div>
+    <div class="two">
+      <div class="merke">
+        <p class="box-label">Voraussetzungen</p>
+        <ul class="list">
+          <li>umkehrbare Reaktion</li>
+          <li>geschlossenes System: kein Stoff entweicht oder kommt dazu</li>
+          <li>konstante Bedingungen (Temperatur, Druck)</li>
+        </ul>
+      </div>
+      <div class="merke">
+        <p class="box-label">Merkmale</p>
+        <ul class="list">
+          <li>v<sub>hin</sub> = v<sub>rück</sub></li>
+          <li>Die Konzentrationen bleiben konstant, sind aber meist <em>nicht gleich</em>.</li>
+          <li>Das Gleichgewicht lässt sich von beiden Seiten erreichen.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="prose">
+      <p><strong>Dynamisch</strong> heißt: Von außen scheint die Reaktion stillzustehen. Auf Teilchenebene laufen Hin- und Rückreaktion aber weiter, und zwar gleich schnell. Pro Sekunde entstehen genauso viele Produktteilchen, wie zerfallen.</p>
+    </div>
+
+    <figure class="panel" id="sim">
+      <div class="controls">
+        <span>Start mit</span>
+        <span class="seg-btn" role="group" aria-label="Startzustand">
+          <button type="button" data-start="E" aria-pressed="true">nur Edukt</button>
+          <button type="button" data-start="P" aria-pressed="false">nur Produkt</button>
+        </span>
+        <label for="kh"><span>k<sub>hin</sub></span><input type="range" id="kh" min="0.03" max="0.2" step="0.01" value="0.1"><output id="kh-out" for="kh">0,10</output></label>
+        <label for="kr"><span>k<sub>rück</sub></span><input type="range" id="kr" min="0.03" max="0.2" step="0.01" value="0.05"><output id="kr-out" for="kr">0,05</output></label>
+        <label for="dist"><input type="checkbox" id="dist"> bei t = 50 s Edukt zugeben</label>
+      </div>
+      <p class="legend"><strong>Oben: Konzentrationen</strong><span><i style="background:var(--accent)"></i>c(Edukt)</span><span><i style="background:var(--amber)"></i>c(Produkt)</span></p>
+      <svg id="gg-c" viewBox="0 0 560 230" role="img" aria-label="Konzentrationen von Edukt und Produkt gegen die Zeit"></svg>
+      <p class="legend"><strong>Unten: Geschwindigkeiten</strong><span><i style="background:var(--accent)"></i>v<sub>hin</sub>: Edukt → Produkt</span><span><i style="background:var(--amber)"></i>v<sub>rück</sub>: Produkt → Edukt</span></p>
+      <svg id="gg-v" viewBox="0 0 560 170" role="img" aria-label="Geschwindigkeit von Hin- und Rückreaktion gegen die Zeit"></svg>
+      <div class="readout" id="gg-read" aria-live="polite"></div>
+      <figcaption><b>Simulation Edukt ⇌ Produkt</b> mit v<sub>hin</sub> = k<sub>hin</sub> · c(Edukt) und v<sub>rück</sub> = k<sub>rück</sub> · c(Produkt). Probiere beide Startzustände aus: Das Gleichgewicht ist dasselbe.</figcaption>
+    </figure>
+    <div class="pitfall">
+      <p class="box-label">Typische Fehler</p>
+      <p>„Im Gleichgewicht sind die Konzentrationen gleich.“ Falsch, sie sind <em>konstant</em>. „Im Gleichgewicht läuft keine Reaktion mehr.“ Falsch, beide Reaktionen laufen gleich schnell weiter.</p>
+    </div>
+    <a class="quizlink" href="#quiz" data-quiz="C1">Quizfragen zu C1 →</a>
+  </article>
+
+  <!-- C2 -->
+  <article class="topic" id="c2">
+    <header class="topic-head"><span class="code">C2</span><h2>Massenwirkungsgesetz</h2></header>
+    <p class="cando">„Ich kann zu Gleichgewichtsreaktionen das Massenwirkungsgesetz formulieren, damit Gleichgewichtskonstanten berechnen (Achtung: Einheit!) und daraus die Lage des Gleichgewichts schlussfolgern. Ich kann aus gegebenen Werten unbekannte Gleichgewichtskonzentrationen berechnen.“</p>
+    <p class="ab"><b>Material aus dem Unterricht:</b> AB „Von der Bälleschlacht zum Massenwirkungsgesetz“ · AB „Chemisches Rechnen – eine Wiederholung“ · AB „Das Massenwirkungsgesetz – Ein Überblick“ · AB „Mit dem Massenwirkungsgesetz rechnen“</p>
+    <div class="prose">
+      <p><strong>Von der Bälleschlacht zum MWG:</strong> Zwei Gruppen werfen Bälle über eine Linie. Wer mehr Bälle auf seiner Seite hat, wirft pro Minute mehr hinüber. Irgendwann fliegen pro Minute gleich viele Bälle in beide Richtungen, die Zahl auf jeder Seite bleibt konstant. Wirft eine Gruppe schneller, liegen am Ende auf ihrer Seite weniger Bälle.</p>
+      <p>Genauso bei Teilchen. Für <span class="f">A + B ⇌ C + D</span> gilt v<sub>hin</sub> = k<sub>hin</sub> · c(A) · c(B) und v<sub>rück</sub> = k<sub>rück</sub> · c(C) · c(D). Im Gleichgewicht sind beide gleich, daraus folgt:</p>
+    </div>
+    <div class="mwg">
+      K<sub>c</sub> = <span class="frac"><span>k<sub>hin</sub></span><span>k<sub>rück</sub></span></span> = <span class="frac"><span>c(C) · c(D)</span><span>c(A) · c(B)</span></span>
+    </div>
+    <div class="prose"><p><strong>Allgemein</strong> für <span class="f">a A + b B ⇌ d D + e E</span>:</p></div>
+    <div class="mwg">
+      K<sub>c</sub> = <span class="frac"><span>c<sup>d</sup>(D) · c<sup>e</sup>(E)</span><span>c<sup>a</sup>(A) · c<sup>b</sup>(B)</span></span>
+    </div>
+    <ul class="list">
+      <li>Produkte stehen im Zähler, Edukte im Nenner.</li>
+      <li>Koeffizienten werden zu <strong>Exponenten</strong>.</li>
+      <li>Es werden nur <strong>Gleichgewichtskonzentrationen</strong> eingesetzt, keine Startwerte.</li>
+      <li>K<sub>c</sub> hängt nur von der Temperatur ab.</li>
+    </ul>
+    <h3>Einheit von K<sub>c</sub></h3>
+    <div class="prose"><p>Die Einheit ist (mol/L)<sup>Δν</sup>, mit Δν = Summe der Koeffizienten der Produkte − Summe der Koeffizienten der Edukte.</p></div>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Reaktion</th><th>Δν</th><th>Einheit von K<sub>c</sub></th></tr></thead>
+        <tbody>
+          <tr><td><span class="f">H<sub>2</sub> + I<sub>2</sub> ⇌ 2 HI</span></td><td class="num">2 − 2 = 0</td><td>keine Einheit</td></tr>
+          <tr><td><span class="f">N<sub>2</sub> + 3 H<sub>2</sub> ⇌ 2 NH<sub>3</sub></span></td><td class="num">2 − 4 = −2</td><td>(mol/L)<sup>−2</sup> = L²/mol²</td></tr>
+          <tr><td><span class="f">N<sub>2</sub>O<sub>4</sub> ⇌ 2 NO<sub>2</sub></span></td><td class="num">2 − 1 = 1</td><td>mol/L</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>Lage des Gleichgewichts</h3>
+    <ul class="list">
+      <li><strong>K &gt; 1:</strong> Das Gleichgewicht liegt auf der Seite der Produkte (rechts). Bei K ≫ 1, z. B. 10<sup>8</sup>, reagiert praktisch alles.</li>
+      <li><strong>K &lt; 1:</strong> Das Gleichgewicht liegt auf der Seite der Edukte (links).</li>
+      <li><strong>K ≈ 1:</strong> Edukte und Produkte liegen in ähnlichem Umfang vor.</li>
+    </ul>
+
+    <h3>Rechenbeispiel 1: K<sub>c</sub> aus Messwerten</h3>
+    <div class="prose"><p>Start: c(H<sub>2</sub>) = c(I<sub>2</sub>) = 0,50 mol/L. Im Gleichgewicht misst man c(HI) = 0,78 mol/L. Arbeite immer mit dieser Tabelle:</p></div>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>in mol/L</th><th class="num">H<sub>2</sub></th><th class="num">I<sub>2</sub></th><th class="num">2 HI</th></tr></thead>
+        <tbody>
+          <tr><td>Start</td><td class="num">0,50</td><td class="num">0,50</td><td class="num">0</td></tr>
+          <tr><td>Änderung</td><td class="num">−0,39</td><td class="num">−0,39</td><td class="num">+0,78</td></tr>
+          <tr><td>Gleichgewicht</td><td class="num">0,11</td><td class="num">0,11</td><td class="num">0,78</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="eq">
+      K<sub>c</sub> = c²(HI) / (c(H<sub>2</sub>) · c(I<sub>2</sub>)) = (0,78 mol/L)² / (0,11 mol/L · 0,11 mol/L) ≈ <strong>50</strong> <span class="c">(keine Einheit, Δν = 0)</span><br>
+      <span class="c">K &gt; 1: Das Gleichgewicht liegt auf der Seite des Iodwasserstoffs.</span>
+    </div>
+
+    <h3>Rechenbeispiel 2: eine fehlende Konzentration</h3>
+    <div class="prose"><p><span class="f">N<sub>2</sub> + 3 H<sub>2</sub> ⇌ 2 NH<sub>3</sub></span> mit K<sub>c</sub> = 0,50 L²/mol². Im Gleichgewicht sind c(N<sub>2</sub>) = 1,0 mol/L und c(H<sub>2</sub>) = 2,0 mol/L. Wie groß ist c(NH<sub>3</sub>)?</p></div>
+    <div class="eq">
+      c²(NH<sub>3</sub>) = K<sub>c</sub> · c(N<sub>2</sub>) · c³(H<sub>2</sub>) = 0,50 L²/mol² · 1,0 mol/L · (2,0 mol/L)³ = 4,0 mol²/L²<br>
+      c(NH<sub>3</sub>) = √(4,0 mol²/L²) = <strong>2,0 mol/L</strong>
+    </div>
+
+    <h3>Rechenbeispiel 3: Gleichgewicht aus Startwerten</h3>
+    <div class="prose"><p>Ethansäure + Ethanol ⇌ Ester + Wasser, K<sub>c</sub> = 4. Start: je 1,0 mol Säure und Alkohol. Weil Δν = 0 ist, kürzt sich das Volumen heraus und du kannst mit Stoffmengen rechnen.</p></div>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>in mol</th><th class="num">Säure</th><th class="num">Alkohol</th><th class="num">Ester</th><th class="num">Wasser</th></tr></thead>
+        <tbody>
+          <tr><td>Start</td><td class="num">1,0</td><td class="num">1,0</td><td class="num">0</td><td class="num">0</td></tr>
+          <tr><td>Änderung</td><td class="num">−x</td><td class="num">−x</td><td class="num">+x</td><td class="num">+x</td></tr>
+          <tr><td>Gleichgewicht</td><td class="num">1,0 − x</td><td class="num">1,0 − x</td><td class="num">x</td><td class="num">x</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="eq">
+      <span class="lbl">einsetzen</span> 4 = (x · x) / ((1,0 − x) · (1,0 − x)) = x² / (1,0 − x)²<br>
+      <span class="lbl">Wurzel ziehen</span> √4 = 2 und √(x² / (1,0 − x)²) = x / (1,0 − x) &nbsp;→&nbsp; 2 = x / (1,0 − x)<br>
+      <span class="lbl">mal (1,0 − x)</span> 2 · (1,0 − x) = x &nbsp;→&nbsp; 2 − 2x = x<br>
+      <span class="lbl">plus 2x, durch 3</span> 2 = 3x &nbsp;→&nbsp; x = 2/3 ≈ <strong>0,67 mol</strong><br>
+      <span class="lbl">ablesen</span> Ester und Wasser: x = 0,67 mol · Säure und Alkohol: 1,0 − 0,67 = 0,33 mol<br>
+      <span class="lbl">Probe</span> 0,67² / 0,33² ≈ 0,444 / 0,111 ≈ 4 ✓<br>
+      <span class="lbl">Ausbeute</span> 0,67 mol von höchstens 1,0 mol Ester = <strong>67 %</strong>
+    </div>
+    <div class="prose"><p>Geht die Wurzel nicht glatt auf, hilft die pq-Formel. Nimm dann nur die Lösung, die zwischen 0 und der Startmenge liegt.</p></div>
+    <div class="pitfall">
+      <p class="box-label">Typische Fehler</p>
+      <p>Startkonzentrationen statt Gleichgewichtskonzentrationen einsetzen. Koeffizienten als Faktoren schreiben statt als Exponenten. Die Einheit von K<sub>c</sub> vergessen.</p>
+    </div>
+    <a class="quizlink" href="#quiz" data-quiz="C2">Quizfragen zu C2 →</a>
+  </article>
+
+  <!-- C3 -->
+  <article class="topic" id="c3">
+    <header class="topic-head"><span class="code">C3</span><h2>Prinzip von Le Chatelier</h2></header>
+    <p class="cando">„Ich kann beurteilen, inwiefern sich eine gegebene Gleichgewichtskonzentration durch Konzentrations-/Druck- und Temperaturänderungen beeinflussen lässt und diese Beeinflussung mit dem Prinzip von Le Chatelier erläutern.“</p>
+    <p class="ab"><b>Material aus dem Unterricht:</b> AB „Einfluss des Drucks / der Temperatur auf die Einstellung des ch. Ggw.“ · AB „Einfluss von Konzentrationsänderungen auf das ch. Ggw.“ · AB „Das Prinzip von Le Chatelier“</p>
+    <div class="merke">
+      <p class="box-label">Prinzip vom kleinsten Zwang</p>
+      <p>Übt man auf ein System im Gleichgewicht einen Zwang aus (Konzentration, Druck oder Temperatur ändern), dann verschiebt sich das Gleichgewicht so, dass die Wirkung des Zwangs <strong>verringert</strong> wird.</p>
+    </div>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Zwang</th><th>Das Gleichgewicht verschiebt sich …</th><th>K<sub>c</sub></th></tr></thead>
+        <tbody>
+          <tr><td>Edukt zugeben oder Produkt entfernen</td><td>nach rechts, mehr Produkt</td><td>bleibt</td></tr>
+          <tr><td>Produkt zugeben oder Edukt entfernen</td><td>nach links, mehr Edukt</td><td>bleibt</td></tr>
+          <tr><td>Druck erhöhen (Gase)</td><td>zur Seite mit <strong>weniger</strong> Gasteilchen</td><td>bleibt</td></tr>
+          <tr><td>Druck senken (Gase)</td><td>zur Seite mit <strong>mehr</strong> Gasteilchen</td><td>bleibt</td></tr>
+          <tr><td>Temperatur erhöhen</td><td>in Richtung der <strong>endothermen</strong> Reaktion</td><td>ändert sich</td></tr>
+          <tr><td>Temperatur senken</td><td>in Richtung der <strong>exothermen</strong> Reaktion</td><td>ändert sich</td></tr>
+          <tr><td>Katalysator</td><td>gar nicht, das Gleichgewicht stellt sich nur schneller ein</td><td>bleibt</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>Konzentration, mit dem MWG begründet</h3>
+    <div class="prose">
+      <p>Gibt man Edukt dazu, wird der Nenner im MWG größer. Der Quotient ist kurz kleiner als K. Jetzt ist v<sub>hin</sub> größer als v<sub>rück</sub>, bis der Quotient wieder gleich K ist. Es entsteht also mehr Produkt, K selbst bleibt gleich. Du kannst das <a href="#sim">oben in der Simulation</a> ausprobieren: Hake „bei t = 50 s Edukt zugeben“ an.</p>
+    </div>
+    <h3>Druck</h3>
+    <div class="prose">
+      <p>Druck wirkt nur bei Gasreaktionen, bei denen sich die Zahl der Gasteilchen ändert. Zähle die Koeffizienten der Gase:</p>
+    </div>
+    <div class="eq">
+      N<sub>2</sub>(g) + 3 H<sub>2</sub>(g) ⇌ 2 NH<sub>3</sub>(g) <span class="c">4 Teilchen → 2 Teilchen: Druck ↑ ergibt mehr NH<sub>3</sub></span><br>
+      H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2 HI(g) <span class="c">2 Teilchen → 2 Teilchen: Druck hat keinen Einfluss auf die Lage</span>
+    </div>
+    <h3>Temperatur</h3>
+    <div class="eq">
+      2 NO<sub>2</sub>(g) ⇌ N<sub>2</sub>O<sub>4</sub>(g) &nbsp; ΔH = −57 kJ/mol <span class="c">(Hinreaktion exotherm)</span><br>
+      <span class="c">NO<sub>2</sub> ist braun, N<sub>2</sub>O<sub>4</sub> farblos. In heißem Wasser wird das Gas dunkler (endotherme Rückreaktion), in Eiswasser heller.</span>
+    </div>
+    <h3>Anwendung: Haber-Bosch-Verfahren</h3>
+    <div class="prose">
+      <p>Die Ammoniaksynthese ist exotherm und verringert die Zahl der Gasteilchen. Für eine hohe Ausbeute wären also hoher Druck und niedrige Temperatur gut. Bei niedriger Temperatur ist die Reaktion aber zu langsam. Deshalb arbeitet man mit einem Kompromiss: etwa 400–500 °C, 200–300 bar, Eisen-Katalysator, und das Ammoniak wird laufend entfernt.</p>
+    </div>
+    <h3>Antwortschema für „Beurteile …“</h3>
+    <ol class="list">
+      <li>Reaktionsgleichung mit Aggregatzuständen und ΔH hinschreiben.</li>
+      <li>Den Zwang benennen.</li>
+      <li>Sagen, welche Richtung den Zwang verringert.</li>
+      <li>Folge für die Konzentrationen oder die Beobachtung nennen.</li>
+      <li>Sagen, ob sich K<sub>c</sub> ändert (nur bei Temperatur).</li>
+    </ol>
+    <div class="pitfall">
+      <p class="box-label">Typische Fehler</p>
+      <p>„Temperaturerhöhung verschiebt immer nach rechts.“ Falsch, sie verschiebt zur endothermen Seite. „Bei Konzentrationsänderung ändert sich K.“ Falsch. „Ein Katalysator erhöht die Ausbeute.“ Falsch.</p>
+    </div>
+    <a class="quizlink" href="#quiz" data-quiz="C3">Quizfragen zu C3 →</a>
+  </article>
+
+  <nav class="next" aria-label="Weiter"><a href="#geschwindigkeit">← B Geschwindigkeit</a><a href="#quiz">Weiter: Quiz →</a></nav>
+</section>
+
+<!-- =================================================================== QUIZ -->
+<section class="page" id="quiz" hidden>
+  <div class="page-head">
+    <p class="eyebrow">Selbsttest</p>
+    <h1>Quiz</h1>
+    <p class="lede"><span id="q-count">37</span> Fragen zu A1 bis C3. Die Auswertung zeigt dir, welche Punkte deiner Themenliste du noch wiederholen solltest.</p>
+  </div>
+  <div class="quiz-sum">
+    <div class="score">
+      <span class="big"><span id="sc-right">0</span><span class="of"> / <span id="sc-total">32</span> richtig</span></span>
+      <span id="sc-ans" class="muted"></span>
+    </div>
+    <ul id="tscores" class="tscores" aria-label="Ergebnis nach Thema"></ul>
+    <p id="sc-tip"></p>
+    <div class="actions">
+      <button type="button" id="reset-wrong" class="btn">Falsche nochmal versuchen</button>
+      <button type="button" id="reset-all" class="btn ghost">Quiz zurücksetzen</button>
+    </div>
+  </div>
+  <div class="filters" role="group" aria-label="Fragen nach Thema filtern" id="filters">
+    <button type="button" class="fbtn" data-f="all" aria-pressed="true">Alle</button>
+  </div>
+  <div id="qlist" class="qlist"></div>
+</section>
+
+<!-- =================================================================== PROBE -->
+<section class="page" id="probeklausur" hidden>
+  <div class="page-head">
+    <p class="eyebrow">Generalprobe</p>
+    <h1>Probeklausur</h1>
+    <p class="lede">Bearbeite sie am Sonntag in 60 Minuten, nur mit Periodensystem, Taschenrechner und Lineal. Öffne die Lösungen erst danach. 50 Punkte, dazu 4 Bonuspunkte.</p>
+  </div>
+
+  <article class="task">
+    <h3>Aufgabe 1 · Magnesium in Salzsäure <span class="pts">22 P.</span></h3>
+    <p>Magnesium reagiert mit Salzsäure zu Magnesiumchlorid und Wasserstoff. Die Reaktion ist exotherm.</p>
+    <ul class="parts">
+      <li><span class="pl">a)</span><span>Stelle die Reaktionsgleichung mit Aggregatzuständen auf und skizziere ein beschriftetes Energiediagramm. <span class="pts">(5 P.)</span></span></li>
+      <li><span class="pl">b)</span><span>0,243 g Magnesium reagieren mit 50 mL Salzsäure (c = 1,0 mol/L). Zeige, dass die Salzsäure im Überschuss vorliegt, und berechne das maximale Volumen Wasserstoff bei 20 °C (V<sub>m</sub> = 24 L/mol). <span class="pts">(5 P.)</span></span></li>
+      <li><span class="pl">c)</span><span>Berechne mit den Messwerten unten die Durchschnittsgeschwindigkeit für 0–30 s und für 60–90 s, jeweils in mL/s und in mol/s. Erkläre den Unterschied mit der Stoßtheorie. <span class="pts">(7 P.)</span></span></li>
+      <li><span class="pl">d)</span><span>Bestimme die Momentangeschwindigkeit bei t = 30 s näherungsweise rechnerisch. Beschreibe, wie du sie grafisch bestimmen würdest. <span class="pts">(3 P.)</span></span></li>
+      <li><span class="pl">e)</span><span>Der Versuch wird mit Salzsäure der Konzentration 2,0 mol/L wiederholt. Skizziere den neuen Verlauf im selben Diagramm und begründe. <span class="pts">(2 P.)</span></span></li>
+    </ul>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>t in s</th><td class="num">0</td><td class="num">15</td><td class="num">30</td><td class="num">45</td><td class="num">60</td><td class="num">90</td><td class="num">120</td><td class="num">180</td></tr></thead>
+        <tbody><tr><th>V(H<sub>2</sub>) in mL</th><td class="num">0</td><td class="num">75</td><td class="num">127</td><td class="num">162</td><td class="num">186</td><td class="num">215</td><td class="num">228</td><td class="num">237</td></tr></tbody>
+      </table>
+    </div>
+    <details>
+      <summary>Lösung zu Aufgabe 1</summary>
+      <div class="det">
+        <p><strong>a)</strong> <span class="f">Mg(s) + 2 HCl(aq) → MgCl<sub>2</sub>(aq) + H<sub>2</sub>(g)</span>. Energiediagramm wie bei <a href="#a1">A1</a> (exotherm): Edukte höher als Produkte, Aktivierungsenergie E<sub>A</sub> als Hügel, ΔH &lt; 0 als Pfeil nach unten, Achsen „Energie“ und „Reaktionsverlauf“.</p>
+        <p><strong>b)</strong></p>
+        <div class="eq">
+          n(Mg) = 0,243 g ÷ 24,3 g/mol = 0,0100 mol<br>
+          n(HCl) = c · V = 1,0 mol/L · 0,050 L = 0,050 mol<br>
+          benötigt: n(HCl) = 2 · 0,0100 mol = 0,0200 mol &lt; 0,050 mol → Salzsäure im Überschuss<br>
+          n(H<sub>2</sub>) = n(Mg) = 0,0100 mol → V = 0,0100 mol · 24 L/mol = 0,24 L = <strong>240 mL</strong>
+        </div>
+        <p><strong>c)</strong></p>
+        <div class="eq">
+          <span class="lbl">0–30 s</span> v = 127 mL ÷ 30 s = 4,2 mL/s; n = 0,127 L ÷ 24 L/mol = 5,3 · 10<sup>−3</sup> mol → v = 1,8 · 10<sup>−4</sup> mol/s<br>
+          <span class="lbl">60–90 s</span> v = (215 − 186) mL ÷ 30 s = 0,97 mL/s; n = 0,029 L ÷ 24 L/mol = 1,2 · 10<sup>−3</sup> mol → v = 4,0 · 10<sup>−5</sup> mol/s
+        </div>
+        <p>Am Anfang ist die Konzentration der Salzsäure am größten und die Magnesiumoberfläche am größten. Es gibt viele Zusammenstöße pro Zeit, also auch viele wirksame Stöße. Später sind die Edukte teilweise verbraucht, es gibt weniger Zusammenstöße pro Zeit, und die Geschwindigkeit sinkt.</p>
+        <p><strong>d)</strong> Rechnerisch mit dem Intervall 15 s bis 45 s: v ≈ (162 − 75) mL ÷ 30 s = <strong>2,9 mL/s</strong>. Grafisch: Messwerte zeichnen, Tangente bei t = 30 s anlegen, Steigungsdreieck zeichnen, v = ΔV / Δt ablesen.</p>
+        <p><strong>e)</strong> Die Kurve ist am Anfang steiler, weil bei höherer Konzentration mehr Zusammenstöße pro Zeit stattfinden. Das Endvolumen bleibt 240 mL, denn Magnesium ist der begrenzende Stoff.</p>
+      </div>
+    </details>
+  </article>
+
+  <article class="task">
+    <h3>Aufgabe 2 · Iodwasserstoff-Gleichgewicht <span class="pts">19 P.</span></h3>
+    <p><span class="f">H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2 HI(g)</span>. Die Hinreaktion ist exotherm. Bei 448 °C ist K<sub>c</sub> = 50.</p>
+    <ul class="parts">
+      <li><span class="pl">a)</span><span>Erläutere, was man unter einem dynamischen Gleichgewicht versteht, und nenne die Voraussetzungen. <span class="pts">(4 P.)</span></span></li>
+      <li><span class="pl">b)</span><span>Skizziere den Verlauf von c(H<sub>2</sub>) und c(HI), wenn man von H<sub>2</sub> und I<sub>2</sub> ausgeht. Markiere, ab wann das Gleichgewicht erreicht ist. <span class="pts">(3 P.)</span></span></li>
+      <li><span class="pl">c)</span><span>Formuliere das Massenwirkungsgesetz und begründe, warum K<sub>c</sub> hier keine Einheit hat. <span class="pts">(3 P.)</span></span></li>
+      <li><span class="pl">d)</span><span>In einem 1-L-Gefäß werden je 1,0 mol H<sub>2</sub> und I<sub>2</sub> bei 448 °C eingesetzt. Berechne die Gleichgewichtskonzentrationen. <span class="pts">(5 P.)</span></span></li>
+      <li><span class="pl">e)</span><span>Beurteile den Einfluss einer Druckerhöhung und einer Temperaturerhöhung auf die Lage des Gleichgewichts. <span class="pts">(4 P.)</span></span></li>
+    </ul>
+    <details>
+      <summary>Lösung zu Aufgabe 2</summary>
+      <div class="det">
+        <p><strong>a)</strong> Im Gleichgewicht laufen Hin- und Rückreaktion gleich schnell ab (v<sub>hin</sub> = v<sub>rück</sub>). Deshalb bleiben die Konzentrationen konstant, obwohl auf Teilchenebene ständig HI gebildet wird und zerfällt. Von außen sieht es so aus, als würde nichts passieren. Voraussetzungen: umkehrbare Reaktion, geschlossenes System, konstante Temperatur.</p>
+        <p><strong>b)</strong> Achsen: t nach rechts, c in mol/L nach oben. c(H<sub>2</sub>) startet oben (1,0 mol/L), fällt erst steil, dann flacher und bleibt ab t<sub>GG</sub> konstant, aber nicht bei 0. c(HI) startet bei 0, steigt erst steil, dann flacher und bleibt ab <em>demselben</em> Zeitpunkt konstant. HI steigt doppelt so stark, wie H<sub>2</sub> fällt, und endet höher, weil K &gt; 1 ist. t<sub>GG</sub> mit einer gestrichelten Linie markieren.</p>
+        <figure class="panel">
+          <svg viewBox="0 0 360 215" role="img" aria-label="Skizze: c(H2) fällt von 1,0 auf 0,22 mol/L, c(HI) steigt von 0 auf 1,56 mol/L, ab t GG sind beide waagerecht">
+            <line class="ax" x1="52" y1="186" x2="52" y2="8" marker-end="url(#ah)"/>
+            <line class="ax" x1="52" y1="186" x2="350" y2="186" marker-end="url(#ah)"/>
+            <line class="ax" x1="48" y1="186.0" x2="52" y2="186.0"/><text class="tick" x="44" y="190.0" text-anchor="end">0</text><line class="ax" x1="48" y1="136.6" x2="52" y2="136.6"/><text class="tick" x="44" y="140.6" text-anchor="end">0,5</text><line class="ax" x1="48" y1="87.2" x2="52" y2="87.2"/><text class="tick" x="44" y="91.2" text-anchor="end">1,0</text><line class="ax" x1="48" y1="37.8" x2="52" y2="37.8"/><text class="tick" x="44" y="41.8" text-anchor="end">1,5</text>
+            <text class="axl" x="60" y="13">c in mol/L</text>
+            <text class="axl" x="352" y="205" text-anchor="end">t</text>
+            <line class="ln-dash" x1="195.0" y1="186" x2="195.0" y2="20"/>
+            <text class="lab" x="195.0" y="203" text-anchor="middle">t<tspan font-size="9" dy="3">GG</tspan></text>
+            <path class="ln-b" d="M52.0,87.2 L59.1,102.8 L66.3,115.3 L73.5,125.3 L80.6,133.2 L87.8,139.5 L94.9,144.5 L102.0,148.6 L109.2,151.7 L116.4,154.3 L123.5,156.3 L130.7,157.9 L137.8,159.2 L144.9,160.2 L152.1,161.1 L159.2,161.7 L166.4,162.2 L173.6,162.6 L180.7,163.0 L187.8,163.2 L195.0,163.4 L202.2,163.6 L209.3,163.7 L216.4,163.8 L223.6,163.9 L230.8,164.0 L237.9,164.0 L245.1,164.1 L252.2,164.1 L259.4,164.2 L266.5,164.2 L273.6,164.2 L280.8,164.2 L287.9,164.2 L295.1,164.2 L302.2,164.2 L309.4,164.2 L316.6,164.2 L323.7,164.2 L330.8,164.2 L338.0,164.3"/>
+            <path class="ln-a" d="M52.0,186.0 L59.1,154.7 L66.3,129.7 L73.5,109.8 L80.6,93.9 L87.8,81.3 L94.9,71.3 L102.0,63.2 L109.2,56.9 L116.4,51.8 L123.5,47.7 L130.7,44.5 L137.8,41.9 L144.9,39.9 L152.1,38.2 L159.2,36.9 L166.4,35.9 L173.6,35.1 L180.7,34.4 L187.8,33.9 L195.0,33.5 L202.2,33.1 L209.3,32.9 L216.4,32.7 L223.6,32.5 L230.8,32.4 L237.9,32.3 L245.1,32.2 L252.2,32.1 L259.4,32.0 L266.5,32.0 L273.6,32.0 L280.8,31.9 L287.9,31.9 L295.1,31.9 L302.2,31.9 L309.4,31.9 L316.6,31.9 L323.7,31.9 L330.8,31.9 L338.0,31.9"/>
+            <circle cx="69.7" cy="119.6" r="4" class="dot"/>
+            <text class="lab" x="80" y="116">Schnittpunkt ≠ GG</text>
+            <text class="lab-a" x="300" y="24">c(HI)</text>
+            <text class="lab-b" x="300" y="156">c(H<tspan font-size="9" dy="3">2</tspan><tspan dy="-3">)</tspan></text>
+          </svg>
+          <figcaption><b>Lösungsskizze:</b> c(H<sub>2</sub>) fällt von 1,0 auf 0,22 mol/L, c(HI) steigt von 0 auf 1,56 mol/L, also doppelt so stark, weil 2 HI entstehen. Beide Kurven sind gekrümmt und werden ab t<sub>GG</sub> gleichzeitig waagerecht. Der Schnittpunkt ist <em>nicht</em> das Gleichgewicht.</figcaption>
+        </figure>
+        <p><strong>c)</strong> K<sub>c</sub> = c²(HI) / (c(H<sub>2</sub>) · c(I<sub>2</sub>)). Einheit (mol/L)²/(mol/L)², das kürzt sich weg, weil Δν = 2 − 2 = 0.</p>
+        <p><strong>d)</strong></p>
+        <div class="eq">
+          GG: c(H<sub>2</sub>) = c(I<sub>2</sub>) = 1,0 − x; c(HI) = 2x<br>
+          50 = (2x)² / (1,0 − x)² → Wurzel: 7,07 = 2x / (1,0 − x)<br>
+          7,07 − 7,07x = 2x → 9,07x = 7,07 → x = 0,78<br>
+          c(HI) = <strong>1,56 mol/L</strong>; c(H<sub>2</sub>) = c(I<sub>2</sub>) = <strong>0,22 mol/L</strong><br>
+          <span class="c">Probe: 1,56² / 0,22² ≈ 50 ✓</span>
+        </div>
+        <p><strong>e)</strong> Druck: Links und rechts stehen je 2 Gasteilchen. Eine Druckerhöhung kann durch Verschieben nicht verringert werden, die Lage bleibt gleich. Temperatur: Eine Erhöhung begünstigt die endotherme Rückreaktion. Das Gleichgewicht verschiebt sich nach links, es liegt weniger HI vor, und K<sub>c</sub> wird kleiner.</p>
+      </div>
+    </details>
+  </article>
+
+  <article class="task">
+    <h3>Aufgabe 3 · Estergleichgewicht <span class="pts">9 P.</span></h3>
+    <p>Ethansäure + Ethanol ⇌ Ethansäureethylester + Wasser, K<sub>c</sub> = 4. Alle Stoffe liegen flüssig vor.</p>
+    <ul class="parts">
+      <li><span class="pl">a)</span><span>Man setzt 0,50 mol Ester und 0,50 mol Wasser ein. Berechne die Stoffmengen aller Stoffe im Gleichgewicht. <span class="pts">(5 P.)</span></span></li>
+      <li><span class="pl">b)</span><span>Erläutere mit dem Prinzip von Le Chatelier zwei Möglichkeiten, die Ausbeute an Ester zu erhöhen. <span class="pts">(4 P.)</span></span></li>
+    </ul>
+    <details>
+      <summary>Lösung zu Aufgabe 3</summary>
+      <div class="det">
+        <p><strong>a)</strong> Hier startet man von der Produktseite. Es reagieren y mol Ester und Wasser zurück:</p>
+        <div class="eq">
+          GG: n(Ester) = n(Wasser) = 0,50 − y; n(Säure) = n(Alkohol) = y<br>
+          4 = (0,50 − y)² / y² → Wurzel: 2 = (0,50 − y) / y<br>
+          2y = 0,50 − y → y = 0,17 mol<br>
+          Säure und Alkohol: je <strong>0,17 mol</strong>; Ester und Wasser: je <strong>0,33 mol</strong>
+        </div>
+        <p>Das Verhältnis ist dasselbe wie in Rechenbeispiel 3 bei C2. Das Gleichgewicht wird von beiden Seiten erreicht.</p>
+        <p><strong>b)</strong> (1) Ein Edukt im Überschuss einsetzen, z. B. mehr Ethansäure: Das Gleichgewicht weicht nach rechts aus und verbraucht das zusätzliche Edukt, es entsteht mehr Ester. (2) Ein Produkt entfernen, z. B. Wasser binden (konzentrierte Schwefelsäure) oder den Ester abdestillieren: Das Gleichgewicht weicht nach rechts aus und bildet das entfernte Produkt nach. K<sub>c</sub> bleibt in beiden Fällen gleich.</p>
+      </div>
+    </details>
+  </article>
+
+  <article class="task bonus">
+    <h3>Bonus · Für die Eins <span class="pts">4 P.</span></h3>
+    <p>Berechne die Ausbeute an Ester (bezogen auf Ethanol), wenn 2,0 mol Ethansäure und 1,0 mol Ethanol eingesetzt werden (K<sub>c</sub> = 4).</p>
+    <details>
+      <summary>Lösung zur Bonusaufgabe</summary>
+      <div class="det">
+        <div class="eq">
+          4 = x² / ((2,0 − x)(1,0 − x))<br>
+          4 · (2,0 − 3,0x + x²) = x² → 3x² − 12x + 8 = 0 → x² − 4x + 8/3 = 0<br>
+          pq-Formel: x = 2 ± √(4 − 8/3) = 2 ± 1,155<br>
+          x = 3,155 ist unmöglich (mehr als 1,0 mol Ethanol) → x = <strong>0,845 mol</strong>, Ausbeute <strong>84,5 %</strong>
+        </div>
+        <p>Vergleich: Mit je 1,0 mol waren es 67 %. Der Überschuss an Säure erhöht die Ausbeute, genau wie Le Chatelier vorhersagt.</p>
+      </div>
+    </details>
+  </article>
+
+  <nav class="next" aria-label="Weiter"><a href="#quiz">← Quiz</a><a href="#spickzettel">Weiter: Spickzettel →</a></nav>
+</section>
+
+<!-- =================================================================== SPICK -->
+<section class="page" id="spickzettel" hidden>
+  <div class="page-head">
+    <p class="eyebrow">Montagmorgen</p>
+    <h1>Spickzettel</h1>
+    <p class="lede">Nur zum Auffrischen. Wenn dir hier etwas fremd vorkommt, lies das passende Thema nach.</p>
+  </div>
+  <div class="cheat">
+    <div class="card">
+      <h3>Formeln</h3>
+      <ul>
+        <li><span class="f">n = m / M</span></li>
+        <li><span class="f">c = n / V</span> (V in Liter)</li>
+        <li><span class="f">n = V / V<sub>m</sub></span>, V<sub>m</sub> = 24 L/mol bei 20 °C</li>
+        <li><span class="f">v = Δc / Δt</span>, bei Edukten mit Minus</li>
+        <li>Verhältnis der Stoffmengen = Verhältnis der Koeffizienten</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Geschwindigkeit</h3>
+      <ul>
+        <li>Sekante: Durchschnitt. Tangente: momentan.</li>
+        <li>Wirksamer Stoß: genug Energie (≥ E<sub>A</sub>) und richtige Ausrichtung.</li>
+        <li>Schneller durch: c ↑, p ↑ (Gase), Oberfläche ↑, T ↑, Katalysator.</li>
+        <li>RGT-Regel: +10 K ergibt etwa 2- bis 4-fache Geschwindigkeit.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Gleichgewicht</h3>
+      <ul>
+        <li>v<sub>hin</sub> = v<sub>rück</sub>, Konzentrationen konstant (nicht gleich).</li>
+        <li>Voraussetzung: umkehrbar, geschlossen, T konstant.</li>
+        <li>MWG: Produkte oben, Edukte unten, Koeffizienten als Exponenten.</li>
+        <li>Einheit (mol/L)<sup>Δν</sup>. K &gt; 1: Produktseite.</li>
+        <li>Nur die Temperatur ändert K.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="block">
+    <h2>Le Chatelier in einer Tabelle</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Zwang</th><th>Verschiebung</th><th>K<sub>c</sub></th></tr></thead>
+        <tbody>
+          <tr><td>Edukt dazu / Produkt weg</td><td>nach rechts</td><td>bleibt</td></tr>
+          <tr><td>Produkt dazu / Edukt weg</td><td>nach links</td><td>bleibt</td></tr>
+          <tr><td>Druck ↑</td><td>zur Seite mit weniger Gasteilchen</td><td>bleibt</td></tr>
+          <tr><td>Temperatur ↑</td><td>endotherme Richtung</td><td>ändert sich</td></tr>
+          <tr><td>Temperatur ↓</td><td>exotherme Richtung</td><td>ändert sich</td></tr>
+          <tr><td>Katalysator</td><td>keine, nur schneller</td><td>bleibt</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="block" id="operatoren">
+    <h2>Operatoren</h2>
+    <p class="sec-lede">Kurzfassung der üblichen Operatoren. Vergleiche sie mit der Übersicht auf der Rückseite deines Blatts.</p>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Operator</th><th>Was du tun musst</th></tr></thead>
+        <tbody>
+          <tr><td><strong>nennen</strong></td><td>Fakten ohne Begründung aufzählen.</td></tr>
+          <tr><td><strong>beschreiben</strong></td><td>Beobachtungen, Diagramme oder Sachverhalte geordnet in eigenen Worten wiedergeben, noch ohne Erklärung.</td></tr>
+          <tr><td><strong>erklären</strong></td><td>Einen Sachverhalt auf Regeln und Gesetzmäßigkeiten zurückführen („weil …“).</td></tr>
+          <tr><td><strong>erläutern</strong></td><td>Erklären und mit Beispielen oder Zusatzinformationen verständlich machen.</td></tr>
+          <tr><td><strong>berechnen</strong></td><td>Ergebnis über einen Rechenweg gewinnen. Ansatz, Einheiten und Antwortsatz gehören dazu.</td></tr>
+          <tr><td><strong>aufstellen / formulieren</strong></td><td>Reaktionsgleichung oder MWG formal richtig aufschreiben.</td></tr>
+          <tr><td><strong>skizzieren</strong></td><td>Das Wesentliche grafisch darstellen, z. B. einen Kurvenverlauf mit beschrifteten Achsen.</td></tr>
+          <tr><td><strong>begründen</strong></td><td>Eine Aussage mit Argumenten stützen.</td></tr>
+          <tr><td><strong>beurteilen</strong></td><td>Mit Fachwissen und Kriterien ein Urteil bilden, ohne persönliche Wertung.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer class="end">Viel Erfolg am Montag.</footer>
+  <nav class="next" aria-label="Weiter"><a href="#probeklausur">← Probeklausur</a><a href="#begriffe">Weiter: Begriffe →</a></nav>
+</section>
+
+<!-- =================================================================== BEGRIFFE -->
+<section class="page" id="begriffe" hidden>
+  <div class="page-head">
+    <p class="eyebrow">Nachschlagen</p>
+    <h1>Begriffe</h1>
+    <p class="lede">Alle Abkürzungen, Formelzeichen, Einheiten, Zeichen, Fachbegriffe und Stoffe, die auf dieser Website vorkommen.</p>
+  </div>
+  <div class="gl-search">
+    <label for="gl-q">Suchen</label>
+    <input type="search" id="gl-q" placeholder="z. B. Edukt, Kc, Δ, mol" autocomplete="off">
+    <span id="gl-count" class="muted" aria-live="polite"></span>
+  </div>
+  <div id="gl-root" class="gl-root"></div>
+  <nav class="next" aria-label="Weiter"><a href="#spickzettel">← Spickzettel</a><a href="#start">Zum Start</a></nav>
+</section>
+
+</main>
+<script src="begriffe.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
